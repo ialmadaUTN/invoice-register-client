@@ -92,7 +92,11 @@ export default function SettingsPage() {
   return (
     <div className="min-h-screen bg-slate-50">
       <header className="bg-white border-b border-slate-200 px-6 py-4 flex items-center gap-4 sticky top-0 z-10">
-        <Button variant="ghost" size="sm" onClick={() => navigate("/")}>
+        <Button
+          variant="ghost"
+          size="sm"
+          onClick={() => navigate("/dashboard")}
+        >
           <ArrowLeft className="h-5 w-5 mr-2" />
           Volver
         </Button>
